@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Coursera Test Suites">
+	 <listeners>
+        <listener class-name="Listeners.TestListener"/>
+    </listeners>
+  <test thread-count="5" name="Web Devlopment Courses">
+    <classes>
+      <class name="Tests.FirstFlow"/>
+      <class name="Tests.SecondFlow"/>
+      <class name="Tests.ThirdFlow"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
